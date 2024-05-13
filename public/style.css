@@ -1,0 +1,11 @@
+.username {
+  color: rgb(0, 128, 32);
+}
+.post {
+  background-color: rgba(165, 42, 42, 0.144);
+  border: 1px solid black;
+}
+
+.username {
+  font-style: italic;
+}

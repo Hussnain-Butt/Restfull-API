@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Show in Detail</title>
+  </head>
+  <body>
+    <h1>Show in Details</h1>
+    <p>Post id: <%= post.id%></p>
+    <div class="post">
+      <h3 class="username"><%= post.username %></h3>
+      <p class="content"><%= post.content %></p>
+      <input type="image" src="<%=post.filePath%>" name="profileImage" alt="" />
+    </div>
+  </body>
+</html>
